@@ -33,16 +33,13 @@
 #   CONNECTIVITY
 #   -----------------------------
 
-    alias myip='curl ip.appspot.com'
+    alias myip='curl ifconfig.me'
 
 
 
 #   -----------------------------
 #   OS X
 #   -----------------------------
-
-    alias finderShowHidden='defaults write com.apple.finder ShowAllFiles TRUE'
-    alias finderHideHidden='defaults write com.apple.finder ShowAllFiles FALSE'
 
     alias showFiles='defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder'
     alias hideFiles='defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder'
