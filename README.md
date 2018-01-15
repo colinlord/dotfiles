@@ -1,6 +1,12 @@
-# Run These To Move & Symlink Bash Profile To This Repo
+## Symlink Bash Profile To This Repo
 
 ```
-mv ~/.bash_profile ~/Repos/dotfiles/.bash_profile
 ln -s ~/Repos/dotfiles/.bash_profile ~/
+```
+
+## If Using Oh-My-Zsh, add the following to .zshrc
+
+```
+# Import my Bash aliases
+source ~/.bash_profile
 ```
