@@ -124,6 +124,28 @@
 
 
 #   -----------------------------
+#   Optim Health
+#   -----------------------------
+
+    optim () {
+      cd ~/Repos/optim/wp-content/themes/understrap
+      bundle exec jekyll serve
+    }
+
+
+
+#   -----------------------------
+#   Jefferson
+#   -----------------------------
+
+    jefferson () {
+      cd ~/Repos/colinlord.github.io
+      gulp watch
+    }
+
+
+
+#   -----------------------------
 #   Ruby
 #   -----------------------------
 
