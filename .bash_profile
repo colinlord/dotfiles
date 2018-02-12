@@ -129,7 +129,7 @@
 
     optim () {
       cd ~/Repos/optim/wp-content/themes/understrap
-      bundle exec jekyll serve
+      gulp watch
     }
 
 
