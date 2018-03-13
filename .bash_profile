@@ -129,7 +129,7 @@
 
     optim () {
       cd ~/Repos/optim/wp-content/themes/understrap
-      gulp watch
+      gulp watch-bs
     }
 
 
