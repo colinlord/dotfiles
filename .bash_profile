@@ -146,6 +146,19 @@
 
 
 #   -----------------------------
+#   Chesapeake Regional
+#   -----------------------------
+
+    chesapeake () {
+      cd ~/Repos/chesapeakeregional
+      lando start
+      cd themes/custom/emulsify
+      npm start
+    }
+
+
+
+#   -----------------------------
 #   Ruby
 #   -----------------------------
 
