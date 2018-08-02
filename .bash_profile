@@ -16,6 +16,7 @@
     alias .5='cd ../../../../../'
     alias .6='cd ../../../../../../'
     alias repos="cd ~/Repos"
+    alias Repos="cd ~/Repos"
 
 
 
