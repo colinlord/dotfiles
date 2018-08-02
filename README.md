@@ -19,3 +19,13 @@ ln -s ~/Repos/dotfiles/.bash_profile ~/
 # Import my Bash aliases
 source ~/.bash_profile
 ```
+
+
+## Symlink Visual Studio Code Settings To This Repo
+
+There is also a [plugin](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) that supports syncing settings using GitHub Gists. Since I have other files I'm syncing beyond Visual Studio Code, I prefer using my dotfiles repo. But this is worth keeping an eye on.
+
+```
+ln -s /Users/colinlord/Repos/dotfiles/vscode-settings.json /Users/colinlord/Library/Application\ Support/Code/User/settings.json
+ln -s /Users/colinlord/Repos/dotfiles/vscode-snippets/ /Users/colinlord/Library/Application\ Support/Code/User/snippets
+```
