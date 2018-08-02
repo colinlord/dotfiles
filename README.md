@@ -29,3 +29,10 @@ There is also a [plugin](https://marketplace.visualstudio.com/items?itemName=Sha
 ln -s /Users/colinlord/Repos/dotfiles/vscode-settings.json /Users/colinlord/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/colinlord/Repos/dotfiles/vscode-snippets/ /Users/colinlord/Library/Application\ Support/Code/User/snippets
 ```
+
+
+## Symlink Hyper Settings To This Repo
+
+```
+ln -s /Users/colinlord/Repos/dotfiles/.hyper.js /Users/colinlord/.hyper.js
+```
