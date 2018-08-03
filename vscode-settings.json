@@ -51,4 +51,7 @@
   "files.associations": {
     "*.html": "twig"
   },
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
 }
