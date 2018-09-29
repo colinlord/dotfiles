@@ -36,3 +36,12 @@ ln -s /Users/colinlord/Repos/dotfiles/vscode-snippets/ /Users/colinlord/Library/
 ```
 ln -s /Users/colinlord/Repos/dotfiles/.hyper.js /Users/colinlord/.hyper.js
 ```
+
+
+## Symlink EditorConfig to top of Repos Directory
+
+We do this so that all projects can pull from the same EditorConfig file.
+
+```
+ln -s ~/Repos/dotfiles/.bash_profile ~/
+```
