@@ -26,15 +26,15 @@ source ~/.bash_profile
 There is also a [plugin](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) that supports syncing settings using GitHub Gists. Since I have other files I'm syncing beyond Visual Studio Code, I prefer using my dotfiles repo. But this is worth keeping an eye on.
 
 ```
-ln -s /Users/colinlord/Repos/dotfiles/vscode-settings.json /Users/colinlord/Library/Application\ Support/Code/User/settings.json
-ln -s /Users/colinlord/Repos/dotfiles/vscode-snippets/ /Users/colinlord/Library/Application\ Support/Code/User/snippets
+ln -s /Users/colin.lord/Repos/dotfiles/vscode-settings.json /Users/colin.lord/Library/Application\ Support/Code/User/settings.json
+ln -s /Users/colin.lord/Repos/dotfiles/vscode-snippets/ /Users/colin.lord/Library/Application\ Support/Code/User/snippets
 ```
 
 
 ## Symlink Hyper Settings To This Repo
 
 ```
-ln -s /Users/colinlord/Repos/dotfiles/.hyper.js /Users/colinlord/.hyper.js
+ln -s /Users/colin.lord/Repos/dotfiles/.hyper.js /Users/colin.lord/.hyper.js
 ```
 
 
@@ -43,5 +43,5 @@ ln -s /Users/colinlord/Repos/dotfiles/.hyper.js /Users/colinlord/.hyper.js
 We do this so that all projects can pull from the same EditorConfig file.
 
 ```
-ln -s ~/Repos/dotfiles/.bash_profile ~/
+ln -s ~/Repos/dotfiles/.bash_profile ~/Repos/.editorconfig
 ```
