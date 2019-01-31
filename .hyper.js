@@ -11,6 +11,9 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 20,
 
+    // window size
+    windowSize: [1080, 720],
+
     // font family with optional fallbacks
     fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace',
 
