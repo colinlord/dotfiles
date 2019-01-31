@@ -21,10 +21,7 @@
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -64,11 +61,7 @@
   "editor.useTabStops": true,
   "editor.formatOnPaste": true,
   "[jade]": {
-    "togglequotes.chars": [
-      "\"",
-      "'",
-      "`"
-    ]
+    "togglequotes.chars": ["\"", "'", "`"]
   },
   "window.zoomLevel": 0,
   "editor.parameterHints.enabled": false
