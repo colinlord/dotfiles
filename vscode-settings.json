@@ -1,36 +1,32 @@
 {
-  "window.zoomLevel": 0,
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.quickSuggestionsDelay": 500,
   "editor.letterSpacing": 0.5,
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.options": {
-    "configFile": "/Volumes/Macintosh HD/Users/colinlord/Repos/dotfiles/.eslintrc"
-  },
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
+  "editor.cursorWidth": 5,
   // this isn't really underline but we hack it to be a thicker cursor
   "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
-  "prettier.eslintIntegration": true,
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
-  "editor.minimap.enabled": true,
-  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "left",
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "none",
   "editor.rulers": [
     80,
-    100,
-    120
+    100
   ],
   "editor.minimap.showSlider": "always",
-  "workbench.startupEditor": "welcomePage",
+  "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
   "files.exclude": {
     "**/.git": true,
@@ -38,20 +34,42 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/.next": true,
+    "**/.next": true
   },
   "workbench.colorTheme": "Cobalt2",
+  "workbench.editor.tabCloseButton": "off",
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "plaintext": "jade",
-    "twig": "html"
+    "javascript": "javascriptreact"
   },
-  "editor.fontSize": 13,
-  "files.associations": {
-    "*.html": "twig"
+  // show snippets before any other auto completion
+  "editor.snippetSuggestions": "top",
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "sublimeTextKeymap.promptV3Features": true,
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.autoIndent": true,
+  "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": true,
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.enablePreview": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": true,
+  "[jade]": {
+    "togglequotes.chars": [
+      "\"",
+      "'",
+      "`"
+    ]
   },
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
+  "window.zoomLevel": 0,
+  "editor.parameterHints.enabled": false
 }
