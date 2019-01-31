@@ -31,6 +31,13 @@ ln -s /Users/colin.lord/Repos/dotfiles/vscode-snippets/ /Users/colin.lord/Librar
 ```
 
 
+## Symlink Sublime Text Settings To This Repo
+
+```
+ln -s /Users/colin.lord/Repos/dotfiles/Preferences.sublime-settings /Users/colin.lord/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+```
+
+
 ## Symlink Hyper Settings To This Repo
 
 ```
