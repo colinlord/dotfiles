@@ -56,3 +56,7 @@
     source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
     export CRYPTOGRAPHY_ALLOW_OPENSSL_098=1
 
+    sdc () {
+      cd ~/Repos/scc-api/smilecheck/
+      python3 manage.py runserver
+    }
