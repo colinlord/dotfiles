@@ -52,6 +52,7 @@
 #   -----------------------------
 
     export WORKON_HOME=~/.virtualenvs
+    export PATH="/usr/local/opt/openssl/bin:$PATH"
     VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
     source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
     export CRYPTOGRAPHY_ALLOW_OPENSSL_098=1
