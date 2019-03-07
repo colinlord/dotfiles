@@ -58,6 +58,13 @@
     export CRYPTOGRAPHY_ALLOW_OPENSSL_098=1
 
     sdc () {
+      workon smilecheck
       cd ~/Repos/scc-api/smilecheck/
       python3 manage.py runserver
+    }
+
+    sdc-css () {
+      workon smilecheck
+      cd ~/Repos/scc-api/smilecheck/
+      python3 manage.py compilescss
     }
