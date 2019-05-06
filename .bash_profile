@@ -68,3 +68,16 @@
       cd ~/Repos/scc-api/smilecheck/
       python3 manage.py compilescss
     }
+
+    sdc-requirements () {
+      cd ~/Repos/scc-api/
+      pip3 install -r requirements.txt
+    }
+
+    sdc-migrate () {
+      workon smilecheck
+      cd ~/Repos/scc-api/smilecheck/
+      python3 manage.py migrate
+    }
+
+
