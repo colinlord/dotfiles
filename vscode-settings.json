@@ -46,7 +46,6 @@
   // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "sublimeTextKeymap.promptV3Features": true,
   // These are all my auto-save configs
   "editor.formatOnSave": true,
   "editor.autoIndent": true,
