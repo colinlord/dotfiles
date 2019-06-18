@@ -80,4 +80,7 @@
       python3 manage.py migrate
     }
 
-
+    sdc-db () {
+	  cd ~/Repos/scc-api/smilecheck/
+	  python3 tools/standalone_scripts/restore_database.py -t qa6
+    }
