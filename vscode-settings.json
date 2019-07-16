@@ -18,7 +18,7 @@
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
   "editor.rulers": [
@@ -72,5 +72,6 @@
     "id": "11721",
     "name": "UX",
     "key": "UX"
-  }
+  },
+  "aws.profile": "sdc-aws"
 }
