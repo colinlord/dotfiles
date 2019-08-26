@@ -66,7 +66,7 @@
     "baseUrlSuffix": "atlassian.net"
   },
   "yaml.schemas": {
-    "file:///Users/colin.lord/.vscode/extensions/atlassian.atlascode-1.4.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/colin.lord/.vscode/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "atlascode.jira.workingProject": {
     "id": "11721",
