@@ -48,6 +48,15 @@
 
 
 #   -----------------------------
+#   Personal
+#   -----------------------------
+
+    gatsby () {
+      cd ~/Repos/colinlord.github.io
+      gatsby develop
+    }
+
+#   -----------------------------
 #   SDC
 #   -----------------------------
 
@@ -81,6 +90,25 @@
     }
 
     sdc-db () {
-	  cd ~/Repos/scc-api/smilecheck/
-	  python3 tools/standalone_scripts/restore_database.py -t qa6
+	    cd ~/Repos/scc-api/smilecheck/
+	    python3 tools/standalone_scripts/restore_database.py -t qa6
     }
+
+    sdc-upgrade () {
+      workon smilecheck
+      cd ~/Repos/scc-api/
+      pip3 install -r requirements.txt
+      cd smilecheck
+      python manage.py migrate
+      npm install
+    }
+
+    if command -v pyenv 1>/dev/null 2>&1; then
+      eval "$(pyenv init -)"
+      eval "$(pyenv virtualenv-init -)"
+    fi
+
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+    export GPG_TTY=$(tty)
