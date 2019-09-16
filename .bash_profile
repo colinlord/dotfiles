@@ -51,7 +51,7 @@
 #   Personal
 #   -----------------------------
 
-    gatsby () {
+    clcom () {
       cd ~/Repos/colinlord.github.io
       gatsby develop
     }
