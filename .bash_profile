@@ -94,13 +94,18 @@
       python3 tools/standalone_scripts/restore_database.py -t qa6
     }
 
-    sdc-upgrade () {
+    sdc-update () {
       workon smilecheck
       cd ~/Repos/scc-api/
       pip3 install -r requirements.txt
       cd smilecheck
       python manage.py migrate
       npm install
+    }
+
+    sdc-setup () {
+      cd ~/Repos/scc-api/
+      bash environment_setup.sh
     }
 
     if command -v pyenv 1>/dev/null 2>&1; then
