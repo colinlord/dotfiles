@@ -60,6 +60,8 @@
 #   SDC
 #   -----------------------------
 
+#   Don't forget to start postgres before running these commands!
+
     export WORKON_HOME=~/.virtualenvs
     export PATH="/usr/local/opt/openssl/bin:$PATH"
     VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3

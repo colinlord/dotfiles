@@ -66,12 +66,22 @@
     "baseUrlSuffix": "atlassian.net"
   },
   "yaml.schemas": {
-    "file:///Users/colin.lord/.vscode/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/colin.lord/.vscode/extensions/atlassian.atlascode-2.2.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "atlascode.jira.workingProject": {
     "id": "11721",
     "name": "UX",
     "key": "UX"
   },
-  "aws.profile": "sdc-aws"
+  "aws.profile": "sdc-aws",
+  "atlascode.jira.jqlList": [
+    {
+      "id": "08b16ae5-f8c6-4f31-98e2-56f07504a0d0",
+      "enabled": true,
+      "name": "My smiledirectclub Issues",
+      "query": "assignee = currentUser() ORDER BY lastViewed DESC ",
+      "siteId": "6ce19f20-6985-451d-835e-e8f1b9ece12e",
+      "monitor": true
+    }
+  ]
 }
