@@ -1,7 +1,8 @@
 {
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
   "editor.lineHeight": 18,
   "editor.quickSuggestionsDelay": 500,
   "editor.letterSpacing": 0.5,
@@ -38,25 +39,19 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // show snippets before any other auto completion
   "editor.snippetSuggestions": "top",
-  // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  // These are all my auto-save configs
   "editor.formatOnSave": true,
-  // turn it off for JS and JSX, we will do this via eslint
   "[javascript]": {
     "editor.formatOnSave": false
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
-  // tell the ESLint plugin to run on save
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  // turn Prettier off for JS since we are doing it through Eslint already
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
@@ -93,5 +88,6 @@
       "siteId": "6ce19f20-6985-451d-835e-e8f1b9ece12e",
       "monitor": true
     }
-  ]
+  ],
+  "terminal.integrated.shell.osx": "/bin/zsh"
 }
