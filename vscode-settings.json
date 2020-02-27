@@ -21,10 +21,7 @@
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -48,6 +45,19 @@
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   // These are all my auto-save configs
   "editor.formatOnSave": true,
+  // turn it off for JS and JSX, we will do this via eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // turn Prettier off for JS since we are doing it through Eslint already
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
   "editor.detectIndentation": false,
