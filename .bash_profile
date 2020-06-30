@@ -60,10 +60,12 @@
 #   SDC
 #   -----------------------------
 
+#   Don't forget to start postgres before running these commands!
+
     export WORKON_HOME=~/.virtualenvs
     export PATH="/usr/local/opt/openssl/bin:$PATH"
     VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-    source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
+    # source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
     export CRYPTOGRAPHY_ALLOW_OPENSSL_098=1
 
     sdc () {
@@ -106,6 +108,12 @@
     sdc-setup () {
       cd ~/Repos/scc-api/
       bash environment_setup.sh
+    }
+
+    sdc-aws () {
+      docker run -it --rm --net=host -e TZ=America/Chicago -v ~/.aws:/root/.aws tool-registry.sdcops.com/gimme-aws-creds:latest
+      cd ~/.aws
+      nano credentials
     }
 
     if command -v pyenv 1>/dev/null 2>&1; then

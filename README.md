@@ -6,11 +6,19 @@ At the same time, I stumbled onto a dotfiles repo that Wes Bos created. He had m
 
 Some of what's in here is project specific to what I'm working on. But since this is on GitHub, obviously feel free to take anything you like. If you want to reach me, @colinlord on Twitter is probably the best way.
 
-
 ## Symlink Bash Profile To This Repo
 
 ```
 ln -s ~/Repos/dotfiles/.bash_profile ~/
+```
+
+## Use ESLint settings from Wes Bos
+
+His documentation: https://github.com/wesbos/eslint-config-wesbos
+
+```
+npx install-peerdeps --global eslint-config-wesbos
+ln -s ~/Repos/dotfiles/.eslintrc ~/
 ```
 
 ### If Using Oh-My-Zsh, add the following to .zshrc
@@ -19,7 +27,6 @@ ln -s ~/Repos/dotfiles/.bash_profile ~/
 # Import my Bash aliases
 source ~/.bash_profile
 ```
-
 
 ## Symlink Visual Studio Code Settings To This Repo
 
@@ -30,20 +37,17 @@ ln -s ~/Repos/dotfiles/vscode-settings.json ~/Library/Application\ Support/Code/
 ln -s ~/Repos/dotfiles/vscode-snippets/ ~/Library/Application\ Support/Code/User/snippets
 ```
 
-
 ## Symlink Sublime Text Settings To This Repo
 
 ```
 ln -s ~/Repos/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 ```
 
-
 ## Symlink Hyper Settings To This Repo
 
 ```
 ln -s ~/Repos/dotfiles/.hyper.js ~/.hyper.js
 ```
-
 
 ## Symlink EditorConfig to top of Repos Directory
 
