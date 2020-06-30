@@ -26,22 +26,22 @@ source ~/.bash_profile
 There is also a [plugin](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) that supports syncing settings using GitHub Gists. Since I have other files I'm syncing beyond Visual Studio Code, I prefer using my dotfiles repo. But this is worth keeping an eye on.
 
 ```
-ln -s /Users/colin.lord/Repos/dotfiles/vscode-settings.json /Users/colin.lord/Library/Application\ Support/Code/User/settings.json
-ln -s /Users/colin.lord/Repos/dotfiles/vscode-snippets/ /Users/colin.lord/Library/Application\ Support/Code/User/snippets
+ln -s ~/Repos/dotfiles/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/Repos/dotfiles/vscode-snippets/ ~/Library/Application\ Support/Code/User/snippets
 ```
 
 
 ## Symlink Sublime Text Settings To This Repo
 
 ```
-ln -s /Users/colin.lord/Repos/dotfiles/Preferences.sublime-settings /Users/colin.lord/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+ln -s ~/Repos/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 ```
 
 
 ## Symlink Hyper Settings To This Repo
 
 ```
-ln -s /Users/colin.lord/Repos/dotfiles/.hyper.js /Users/colin.lord/.hyper.js
+ln -s ~/Repos/dotfiles/.hyper.js ~/.hyper.js
 ```
 
 
