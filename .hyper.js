@@ -135,8 +135,7 @@ module.exports = {
         "network",
         "battery",
         "docker",
-        "time",
-        "spotify"
+        "time"
       ]
     }
   },
