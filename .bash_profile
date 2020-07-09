@@ -112,6 +112,7 @@
 
     sdc-aws () {
       docker run -it --rm --net=host -e TZ=America/Chicago -v ~/.aws:/root/.aws tool-registry.sdcops.com/gimme-aws-creds:latest
+      export AWS_PROFILE="SingleAccountName:Developer"
       cd ~/.aws
       nano credentials
     }
