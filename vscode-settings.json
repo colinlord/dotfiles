@@ -19,6 +19,7 @@
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
+  "editor.renameOnType": true,
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
