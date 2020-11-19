@@ -1,10 +1,15 @@
 ## What's This?
 
-About a year ago, I was upgrading to a new Mac. But one of the nightmares of switching are all the local environments. Running npm install only does so much. While it doesn't help for setting up things like SSH, I have a bunch of bash commands that I consistently use.
+About a year ago, I was upgrading to a new Mac. One of the nightmares of switching are all the local environments. Running npm install only does so much. While it doesn't help for setting up things like SSH, I have a bunch of bash commands that I consistently use.
 
-At the same time, I stumbled onto a dotfiles repo that Wes Bos created. He had made it as a way to share his settings with others. In addition to grabbing a couple lines of code, I realized I could put things like bash shortcuts, VS Code settings, or eslint settings in a repo, symlink them, and I'd have everything in one place.
+At the same time, I stumbled onto a dotfiles repo that Wes Bos created. He had made it as a way to share his settings with others. In addition to grabbing a couple lines of code, I realized I could put things like my bash shortcuts, VS Code settings, or eslint settings in a repo. Then I could symlink them. I'd have everything in one place and also version control over them.
 
-Some of what's in here is project specific to what I'm working on. But since this is on GitHub, obviously feel free to take anything you like. If you want to reach me, @colinlord on Twitter is probably the best way.
+Some of what's in here is project specific to what I'm working on. The repo is basically a checklist of things for me to go down whenever I'm setting up a new Mac. But since this is on GitHub, obviously feel free to take anything you like. If you want to reach me, @colinlord on Twitter is probably the best way.
+
+## Symlink Downloads Folder To iCloud
+```
+ln -s /Users/colinlord/Library/Mobile\ Documents/com\~apple\~CloudDocs/Downloads /Users/colinlord/Downloads
+```
 
 ## Symlink Bash Profile To This Repo
 
@@ -26,21 +31,6 @@ ln -s ~/Repos/dotfiles/.eslintrc ~/
 ```
 # Import my Bash aliases
 source ~/.bash_profile
-```
-
-## Symlink Visual Studio Code Settings To This Repo
-
-There is also a [plugin](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) that supports syncing settings using GitHub Gists. Since I have other files I'm syncing beyond Visual Studio Code, I prefer using my dotfiles repo. But this is worth keeping an eye on.
-
-```
-ln -s ~/Repos/dotfiles/vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/Repos/dotfiles/vscode-snippets/ ~/Library/Application\ Support/Code/User/snippets
-```
-
-## Symlink Sublime Text Settings To This Repo
-
-```
-ln -s ~/Repos/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 ```
 
 ## Symlink Hyper Settings To This Repo
