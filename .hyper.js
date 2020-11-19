@@ -123,21 +123,6 @@ module.exports = {
     // selection is present (`true` by default on Windows and disables the context menu feature)
     // quickEdit: true,
 
-    // URL to custom bell
-    // bellSoundURL: 'http://example.com/bell.mp3',
-
-    // for advanced config flags please refer to https://hyper.is/#cfg
-    hyperline: {
-      plugins: [
-        "ip",
-        "cpu",
-        "memory",
-        "network",
-        "battery",
-        "docker",
-        "time"
-      ]
-    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -146,7 +131,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyperterm-cobalt2-theme', "hyper-quit", "hyperline"],
+  plugins: ['hyperterm-cobalt2-theme', "hyper-quit"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
