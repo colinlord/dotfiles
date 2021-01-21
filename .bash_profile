@@ -19,17 +19,6 @@
     alias Repos="cd ~/Repos"
 
 
-
-#   -----------------------------
-#   SUBLIME TEXT
-#   -----------------------------
-
-    export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
-    export EDITOR='subl -w'
-    alias edit='subl'
-
-
-
 #   -----------------------------
 #   CONNECTIVITY
 #   -----------------------------
@@ -68,35 +57,35 @@
     # source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
     export CRYPTOGRAPHY_ALLOW_OPENSSL_098=1
 
-    sdc () {
+    sdc-vulcan () {
       workon smilecheck
       cd ~/Repos/scc-api/smilecheck/
       python3 manage.py runserver
     }
 
-    sdc-css () {
+    sdc-vulcan-css () {
       workon smilecheck
       cd ~/Repos/scc-api/smilecheck/
       python3 manage.py compilescss
     }
 
-    sdc-requirements () {
+    sdc-vulcan-requirements () {
       cd ~/Repos/scc-api/
       pip3 install -r requirements.txt
     }
 
-    sdc-migrate () {
+    sdc-vulcan-migrate () {
       workon smilecheck
       cd ~/Repos/scc-api/smilecheck/
       python3 manage.py migrate
     }
 
-    sdc-db () {
+    sdc-vulcan-db () {
       cd ~/Repos/scc-api/smilecheck/
       python3 tools/standalone_scripts/restore_database.py -t qa6
     }
 
-    sdc-update () {
+    sdc-vulcan-update () {
       workon smilecheck
       cd ~/Repos/scc-api/
       pip3 install -r requirements.txt
@@ -105,7 +94,7 @@
       npm install
     }
 
-    sdc-setup () {
+    sdc-vulcan-setup () {
       cd ~/Repos/scc-api/
       bash environment_setup.sh
     }
@@ -115,6 +104,11 @@
       export AWS_PROFILE="SingleAccountName:Developer"
       cd ~/.aws
       nano credentials
+    }
+    
+    sdc-storybook () {
+      cd ~/Repos/sdc-component-library/
+      npm run serve:storybook
     }
 
     if command -v pyenv 1>/dev/null 2>&1; then
