@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "~/Repos/master-gatsby/starter-files/gatsby"
+		},
+		{
+			"path": "~/Repos/master-gatsby/starter-files/sanity"
+		}
+	],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "titleBar.activeForeground": "#fff",
+      "titleBar.inactiveForeground": "#ffffffCC",
+      "titleBar.activeBackground": "#A71930",
+      "titleBar.inactiveBackground": "#A71930CC"
+    },
+    "git.ignoreLimitWarning": true,
+    "prettier.disableLanguages": [],
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html"
+  }
+}
