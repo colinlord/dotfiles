@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/Repos/sdc-component-library/
+code .
+exit

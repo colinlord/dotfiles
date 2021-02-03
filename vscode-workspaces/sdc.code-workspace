@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "~/Repos/sdc-component-library"
+		},
+		{
+			"path": "~/Repos/sdc-front-end-engineering"
+		}
+	],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "titleBar.activeForeground": "#fff",
+      "titleBar.inactiveForeground": "#ffffffCC",
+      "titleBar.activeBackground": "#5700FF",
+      "titleBar.inactiveBackground": "#5700FFCC"
+    },
+    "git.ignoreLimitWarning": true,
+    "prettier.disableLanguages": [],
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html"
+  }
+}
