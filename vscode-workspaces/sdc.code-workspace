@@ -1,12 +1,12 @@
 {
-	"folders": [
-		{
-			"path": "~/Repos/sdc-component-library"
-		},
-		{
-			"path": "~/Repos/sdc-front-end-engineering"
-		}
-	],
+  "folders": [
+    {
+      "path": "../../sdc-component-library"
+    },
+    {
+      "path": "../../sdc-front-end-engineering"
+    }
+  ],
   "settings": {
     "workbench.colorCustomizations": {
       "titleBar.activeForeground": "#fff",
