@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "~/Repos/master-gatsby/starter-files/gatsby"
+			"path": "../../master-gatsby/starter-files/gatsby"
 		},
 		{
-			"path": "~/Repos/master-gatsby/starter-files/sanity"
+			"path": "../../master-gatsby/starter-files/sanity"
 		}
 	],
   "settings": {
