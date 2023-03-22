@@ -6,12 +6,6 @@ At the same time, I stumbled onto a dotfiles repo that Wes Bos created. He had m
 
 Some of what's in here is project specific to what I'm working on. The repo is basically a checklist of things for me to go down whenever I'm setting up a new Mac. But since this is on GitHub, obviously feel free to take anything you like. If you want to reach me, @colinlord on Twitter is probably the best way.
 
-## Symlink Downloads Folder To iCloud
-
-```
-sudo rm -rf ~/Downloads
-ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Downloads ~/Downloads
-```
 
 ## Symlink Bash Profile To This Repo
 
