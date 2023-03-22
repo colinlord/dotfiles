@@ -34,11 +34,3 @@ source ~/.bash_profile
 ```
 ln -s ~/Repos/dotfiles/.hyper.js ~/.hyper.js
 ```
-
-## Symlink EditorConfig to top of Repos Directory
-
-We do this so that all projects can pull from the same EditorConfig file.
-
-```
-ln -s ~/Repos/dotfiles/.bash_profile ~/Repos/.editorconfig
-```
