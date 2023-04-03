@@ -27,25 +27,8 @@
 
 
 #   -----------------------------
-#   Personal
+#   NVM
 #   -----------------------------
-
-    alias cl='cd ~/Repos/colinlord.github.io; gatsby develop'
-
-#   -----------------------------
-#   SDC
-#   -----------------------------
-
-#   Don't forget to start postgres before running these commands!
-
-    export PATH=node_modules/.bin:$PATH
-
-    sdc-aws () {
-      docker run -it --rm --net=host -e TZ=America/Chicago -v ~/.aws:/root/.aws tool-registry.sdcops.com/gimme-aws-creds:latest
-      export AWS_PROFILE="SingleAccountName:Developer"
-      cd ~/.aws
-      nano credentials
-    }
-    
-    alias sdcStorybook='cd ~/Repos/sdc-component-library/; npm run serve:storybook'
-    alias sdcNuxt='cd ~/Repos/sdc-front-end-engineering/; npm run dev'
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

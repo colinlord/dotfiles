@@ -11,6 +11,7 @@ Some of what's in here is project specific to what I'm working on. The repo is b
 
 ```
 ln -s ~/Repos/dotfiles/.bash_profile ~/
+ln -s ~/Repos/dotfiles/.bash_profile ~/.zprofile
 ```
 
 ## Use ESLint settings from Wes Bos
@@ -20,17 +21,4 @@ His documentation: https://github.com/wesbos/eslint-config-wesbos
 ```
 npx install-peerdeps --global eslint-config-wesbos
 ln -s ~/Repos/dotfiles/.eslintrc ~/
-```
-
-### If Using Oh-My-Zsh, add the following to .zshrc
-
-```
-# Import my Bash aliases
-source ~/.bash_profile
-```
-
-## Symlink Hyper Settings To This Repo
-
-```
-ln -s ~/Repos/dotfiles/.hyper.js ~/.hyper.js
 ```
